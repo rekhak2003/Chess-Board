@@ -1,12 +1,12 @@
-body{
+body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 96vh;
     background: rgb(178, 243, 247);
 }
 
-.chessboard{
+.chessboard {
     width: 80vw;
     height: 80vw;
     border: 2px solid black;
@@ -16,7 +16,7 @@ body{
     flex-wrap: wrap;
 }
 
-.square{
+.square {
     width: 12.5%;
     height: 12.5%;
     float: left;
@@ -25,22 +25,22 @@ body{
     position: relative;
 }
 
-.chessboard .square{
+.chessboard .square {
     font-size: 50px;
     text-align: center;
 }
 
-.white{
+.white {
     background-color: #edd1a4;
     cursor: pointer;
 }
 
-.black{
+.black {
     background-color: #d48e55;
     cursor: pointer;
 }
 
-.coordinate{
+.coordinate {
     height: auto;
     display: flex;
     bottom: 4%;
@@ -51,28 +51,29 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.rank{
+.rank {
     top: 4%;
     right: 4%;
     left: auto;
+    cursor: pointer;
 }
 
-.whitetext{
+.whitetext {
     color: #edd1a4;
 }
 
-.blacktext{
+.blacktext {
     color: #d48e55;
 }
 
-@media(min-width:600px){
+@media(min-width:600px) {
     .chessboard{
         width: 600px;
         height: 600px;
     }
 }
 
-@media(max-width:600px){
+@media(max-width:600px) {
     .coordinate{
         font-size: 12px;
     }
