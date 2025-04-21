@@ -1,4 +1,4 @@
-## Chessboard Web Application ♟️
+## Chessboard ♟️
   This project showcases a beautiful, responsive, and interactive chessboard layout built with HTML, CSS, and no JavaScript. Whether you're a chess enthusiast or just looking for a simple way to display a chessboard, this project offers a visually appealing and responsive solution.🎉
 
 ## 🚀 Features:
