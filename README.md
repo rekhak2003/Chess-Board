@@ -14,5 +14,3 @@
 * HTML5: For the foundational structure of the chessboard and layout.
 
 * CSS3: To add style, responsiveness, and interactivity.
-
-* JavaScript (optional): Future potential for adding interactivity and game logic.
