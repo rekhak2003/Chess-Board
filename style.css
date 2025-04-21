@@ -32,10 +32,12 @@ body{
 
 .white{
     background-color: #edd1a4;
+    cursor: pointer;
 }
 
 .black{
     background-color: #d48e55;
+    cursor: pointer;
 }
 
 .coordinate{
